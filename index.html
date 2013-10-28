@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Connect-4</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+
+<div id="grid">
+
+<ul>
+	
+	<li id="i00"></li>
+	<li id="i01"></li>
+	<li id="i02"></li>
+	<li id="i03"></li>
+	<li id="i04"></li>
+	<li id="i05"></li>
+	<li id="i06"></li>
+
+</ul>
+
+<ul>
+	
+	<li id="i10"></li>
+	<li id="i11"></li>
+	<li id="i12"></li>
+	<li id="i13"></li>
+	<li id="i14"></li>
+	<li id="i15"></li>
+	<li id="i16"></li>
+
+</ul>
+
+<ul>
+	
+	<li id="i20"></li>
+	<li id="i21"></li>
+	<li id="i22"></li>
+	<li id="i23"></li>
+	<li id="i24"></li>
+	<li id="i25"></li>
+	<li id="i26"></li>
+
+</ul>
+
+<ul>
+	<li id="i30"></li>
+	<li id="i31"></li>
+	<li id="i32"></li>
+	<li id="i33"></li>
+	<li id="i34"></li>
+	<li id="i35"></li>
+	<li id="i36"></li>
+</ul>
+
+<ul>
+	
+	<li id="i40"></li>
+	<li id="i41"></li>
+	<li id="i42"></li>
+	<li id="i43"></li>
+	<li id="i44"></li>
+	<li id="i45"></li>
+	<li id="i46"></li>
+
+</ul>
+
+<ul>
+	
+	<li id="i50"></li>
+	<li id="i51"></li>
+	<li id="i52"></li>
+	<li id="i53"></li>
+	<li id="i54"></li>
+	<li id="i55"></li>
+	<li id="i56"></li>
+	
+</ul>
+
+</div>
+
+<div id="board">
+	
+	<h1>CONNECT-4</h1>
+	
+
+	<div id="playerInfo">
+			<label>Enter player name:</label>
+			<input type="text" id="pname" />
+			<input type="submit" id="sub" value="Submit" onclick="setPlayerName()" />
+			<p></p>
+	</div>
+
+
+	<div id="selectPlayer1">
+		
+	<form>
+		<input type="radio" name="rad" value="robot"><span>Set robot as first player</span>
+		<input type="radio" name="rad" value="player"><span id="playerRadio"></span>
+	</form>
+
+	<p></p>
+		
+	</div>
+
+	<div id="result">
+		<p></p>
+	</div>
+
+</div>
+
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
